@@ -2,7 +2,7 @@
 
 int main()
 {
-  uint n;
+  uint32_t n;
   std::cin >> n;
 
   uint max = 0;
