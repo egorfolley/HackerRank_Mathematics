@@ -4,18 +4,17 @@
 
 int main()
 {
-  int N;
+  uint16_t N;
   std::cin >> N;
 
-  int sum = 0;
   while ( N-- )
   {
-    unsigned long long n;
+    uint64_t n;
     std::cin >> n;
 
     n %= mod;
 
-    std::cout << (n*n)%mod << std::endl;
+    std::cout << ( n * n ) % mod << std::endl;
   }
 
   return 0;
